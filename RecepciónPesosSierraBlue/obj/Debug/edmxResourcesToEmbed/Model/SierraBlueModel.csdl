@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SierraBlueDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__EFMigrationsHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Calibre">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Empaque">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaYHora" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="Puerto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Productor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Variedad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LotePoscosecha" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Presentacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Calibre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cliente" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Peso" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LotesCultivo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductorId" Type="Int32" />
+    <NavigationProperty Name="Productor" Relationship="Self.FK_LotesCultivo_Productores_ProductorId" FromRole="LotesCultivo" ToRole="Productores" />
+  </EntityType>
+  <EntityType Name="Presentacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Productor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Iniciales" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LotesCultivos" Relationship="Self.FK_LotesCultivo_Productores_ProductorId" FromRole="Productores" ToRole="LotesCultivo" />
+    <NavigationProperty Name="Variedades" Relationship="Self.FK_Variedades_Productores_ProductorId" FromRole="Productores" ToRole="Variedades" />
+  </EntityType>
+  <EntityType Name="Recepcion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaYHora" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="Puerto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Productor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Variedad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LoteCultivo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LotePoscosecha" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Categoria" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Peso" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Variedad">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="Iniciales" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ProductorId" Type="Int32" />
+    <NavigationProperty Name="Productor" Relationship="Self.FK_Variedades_Productores_ProductorId" FromRole="Variedades" ToRole="Productores" />
+  </EntityType>
+  <Association Name="FK_LotesCultivo_Productores_ProductorId">
+    <End Role="Productores" Type="SierraBlueDBModel.Productor" Multiplicity="0..1" />
+    <End Role="LotesCultivo" Type="Self.LotesCultivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LotesCultivo">
+        <PropertyRef Name="ProductorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Variedades_Productores_ProductorId">
+    <End Role="Productores" Type="SierraBlueDBModel.Productor" Multiplicity="0..1" />
+    <End Role="Variedades" Type="SierraBlueDBModel.Variedad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Variedades">
+        <PropertyRef Name="ProductorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SierraBlueDB" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__EFMigrationsHistory" EntityType="Self.C__EFMigrationsHistory" />
+    <EntitySet Name="Calibres" EntityType="SierraBlueDBModel.Calibre" />
+    <EntitySet Name="Categorias" EntityType="SierraBlueDBModel.Categoria" />
+    <EntitySet Name="Clientes" EntityType="SierraBlueDBModel.Cliente" />
+    <EntitySet Name="Empaques" EntityType="SierraBlueDBModel.Empaque" />
+    <EntitySet Name="LotesCultivos" EntityType="Self.LotesCultivo" />
+    <EntitySet Name="Presentaciones" EntityType="SierraBlueDBModel.Presentacion" />
+    <EntitySet Name="Productores" EntityType="SierraBlueDBModel.Productor" />
+    <EntitySet Name="Recepciones" EntityType="SierraBlueDBModel.Recepcion" />
+    <EntitySet Name="Variedades" EntityType="SierraBlueDBModel.Variedad" />
+    <AssociationSet Name="FK_LotesCultivo_Productores_ProductorId" Association="Self.FK_LotesCultivo_Productores_ProductorId">
+      <End Role="Productores" EntitySet="Productores" />
+      <End Role="LotesCultivo" EntitySet="LotesCultivos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Variedades_Productores_ProductorId" Association="Self.FK_Variedades_Productores_ProductorId">
+      <End Role="Productores" EntitySet="Productores" />
+      <End Role="Variedades" EntitySet="Variedades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

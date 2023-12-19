@@ -1,0 +1,202 @@
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\Diego\Desktop\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2)\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+E:\08-11-2023\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.dll
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.xml
+C:\Users\user\Desktop\Nueva carpeta (2)\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.Drawing.Common.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.dll
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.xml
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+E:\10-11-2023\Nueva carpeta\Nueva carpeta (2) - copia\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.dll
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.xml
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe.config
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\RecepciónPesosSierraBlue.pdb
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\Dapper.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\MaterialSkin.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.dll
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\Dapper.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\SpreadsheetLight.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\bin\Debug\System.IO.Packaging.xml
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VCategorias.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VExportarDatos.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VLotesCultivo.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.VPrincipal.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Properties.Resources.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VProductores.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VRecepciones.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.Views.VVariedades.resources
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.csproj.CopyComplete
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.exe
+C:\Users\user\Desktop\Escritorio\10-11-2023\RecepciónPesosSierraBlue\obj\Debug\RecepciónPesosSierraBlue.pdb

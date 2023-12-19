@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SierraBlueDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__EFMigrationsHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Calibres">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Empaques">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaYHora" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Puerto" Type="nvarchar(max)" />
+    <Property Name="Productor" Type="nvarchar(max)" />
+    <Property Name="Variedad" Type="nvarchar(max)" />
+    <Property Name="LotePoscosecha" Type="nvarchar(max)" />
+    <Property Name="Presentacion" Type="nvarchar(max)" />
+    <Property Name="Calibre" Type="nvarchar(max)" />
+    <Property Name="Cliente" Type="nvarchar(max)" />
+    <Property Name="Peso" Type="real" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LotesCultivo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+    <Property Name="ProductorId" Type="int" />
+  </EntityType>
+  <EntityType Name="Presentacions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Productores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Iniciales" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Recepciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaYHora" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="Puerto" Type="nvarchar(max)" />
+    <Property Name="Productor" Type="nvarchar(max)" />
+    <Property Name="Variedad" Type="nvarchar(max)" />
+    <Property Name="LoteCultivo" Type="nvarchar(max)" />
+    <Property Name="LotePoscosecha" Type="nvarchar(max)" />
+    <Property Name="Categoria" Type="nvarchar(max)" />
+    <Property Name="Peso" Type="real" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Variedades">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+    <Property Name="Iniciales" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="nvarchar(max)" />
+    <Property Name="ProductorId" Type="int" />
+  </EntityType>
+  <Association Name="FK_LotesCultivo_Productores_ProductorId">
+    <End Role="Productores" Type="Self.Productores" Multiplicity="0..1" />
+    <End Role="LotesCultivo" Type="Self.LotesCultivo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LotesCultivo">
+        <PropertyRef Name="ProductorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Variedades_Productores_ProductorId">
+    <End Role="Productores" Type="Self.Productores" Multiplicity="0..1" />
+    <End Role="Variedades" Type="Self.Variedades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productores">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Variedades">
+        <PropertyRef Name="ProductorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SierraBlueDBModelStoreContainer">
+    <EntitySet Name="__EFMigrationsHistory" EntityType="Self.__EFMigrationsHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Calibres" EntityType="Self.Calibres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empaques" EntityType="Self.Empaques" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LotesCultivo" EntityType="Self.LotesCultivo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Presentacions" EntityType="Self.Presentacions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Productores" EntityType="Self.Productores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recepciones" EntityType="Self.Recepciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Variedades" EntityType="Self.Variedades" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_LotesCultivo_Productores_ProductorId" Association="Self.FK_LotesCultivo_Productores_ProductorId">
+      <End Role="Productores" EntitySet="Productores" />
+      <End Role="LotesCultivo" EntitySet="LotesCultivo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Variedades_Productores_ProductorId" Association="Self.FK_Variedades_Productores_ProductorId">
+      <End Role="Productores" EntitySet="Productores" />
+      <End Role="Variedades" EntitySet="Variedades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

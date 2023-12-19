@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SierraBlueDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Calibres">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Categorias">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Empaques">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FechaYHora" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Puerto" Type="nvarchar(max)" />
+          <Property Name="Productor" Type="nvarchar(max)" />
+          <Property Name="Variedad" Type="nvarchar(max)" />
+          <Property Name="LotePoscosecha" Type="nvarchar(max)" />
+          <Property Name="Presentacion" Type="nvarchar(max)" />
+          <Property Name="Calibre" Type="nvarchar(max)" />
+          <Property Name="Cliente" Type="nvarchar(max)" />
+          <Property Name="Peso" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LotesCultivo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+          <Property Name="ProductorId" Type="int" />
+        </EntityType>
+        <EntityType Name="Presentacions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Productores">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Iniciales" Type="nvarchar(max)" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Recepciones">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FechaYHora" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Puerto" Type="nvarchar(max)" />
+          <Property Name="Productor" Type="nvarchar(max)" />
+          <Property Name="Variedad" Type="nvarchar(max)" />
+          <Property Name="LoteCultivo" Type="nvarchar(max)" />
+          <Property Name="LotePoscosecha" Type="nvarchar(max)" />
+          <Property Name="Categoria" Type="nvarchar(max)" />
+          <Property Name="Peso" Type="real" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Variedades">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="450" />
+          <Property Name="Iniciales" Type="nvarchar(max)" />
+          <Property Name="Estado" Type="nvarchar(max)" />
+          <Property Name="ProductorId" Type="int" />
+        </EntityType>
+        <Association Name="FK_LotesCultivo_Productores_ProductorId">
+          <End Role="Productores" Type="Self.Productores" Multiplicity="0..1" />
+          <End Role="LotesCultivo" Type="Self.LotesCultivo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productores">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LotesCultivo">
+              <PropertyRef Name="ProductorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Variedades_Productores_ProductorId">
+          <End Role="Productores" Type="Self.Productores" Multiplicity="0..1" />
+          <End Role="Variedades" Type="Self.Variedades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productores">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Variedades">
+              <PropertyRef Name="ProductorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SierraBlueDBModelStoreContainer">
+          <EntitySet Name="__EFMigrationsHistory" EntityType="Self.__EFMigrationsHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Calibres" EntityType="Self.Calibres" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empaques" EntityType="Self.Empaques" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LotesCultivo" EntityType="Self.LotesCultivo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Presentacions" EntityType="Self.Presentacions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Productores" EntityType="Self.Productores" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recepciones" EntityType="Self.Recepciones" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Variedades" EntityType="Self.Variedades" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_LotesCultivo_Productores_ProductorId" Association="Self.FK_LotesCultivo_Productores_ProductorId">
+            <End Role="Productores" EntitySet="Productores" />
+            <End Role="LotesCultivo" EntitySet="LotesCultivo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Variedades_Productores_ProductorId" Association="Self.FK_Variedades_Productores_ProductorId">
+            <End Role="Productores" EntitySet="Productores" />
+            <End Role="Variedades" EntitySet="Variedades" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SierraBlueDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__EFMigrationsHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Calibre">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Categoria">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Empaque">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FechaYHora" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Puerto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Productor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Variedad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LotePoscosecha" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Presentacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Calibre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Cliente" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Peso" Type="Single" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LoteCultivo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProductorId" Type="Int32" />
+          <NavigationProperty Name="Productor" Relationship="Self.FK_LotesCultivo_Productores_ProductorId" FromRole="LotesCultivo" ToRole="Productores" />
+        </EntityType>
+        <EntityType Name="Presentacion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Productor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Iniciales" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="LotesCultivo" Relationship="Self.FK_LotesCultivo_Productores_ProductorId" FromRole="Productores" ToRole="LotesCultivo" />
+          <NavigationProperty Name="Variedades" Relationship="Self.FK_Variedades_Productores_ProductorId" FromRole="Productores" ToRole="Variedades" />
+        </EntityType>
+        <EntityType Name="Recepcion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FechaYHora" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Puerto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Productor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Variedad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LoteCultivo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LotePoscosecha" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Categoria" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Peso" Type="Single" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Variedad">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="Iniciales" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProductorId" Type="Int32" />
+          <NavigationProperty Name="Productor" Relationship="Self.FK_Variedades_Productores_ProductorId" FromRole="Variedades" ToRole="Productores" />
+        </EntityType>
+        <Association Name="FK_LotesCultivo_Productores_ProductorId">
+          <End Role="Productores" Type="SierraBlueDBModel.Productor" Multiplicity="0..1" />
+          <End Role="LotesCultivo" Type="SierraBlueDBModel.LoteCultivo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productores">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="LotesCultivo">
+              <PropertyRef Name="ProductorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Variedades_Productores_ProductorId">
+          <End Role="Productores" Type="SierraBlueDBModel.Productor" Multiplicity="0..1" />
+          <End Role="Variedades" Type="SierraBlueDBModel.Variedad" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Productores">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Variedades">
+              <PropertyRef Name="ProductorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SierraBlueDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__EFMigrationsHistory" EntityType="Self.C__EFMigrationsHistory" />
+          <EntitySet Name="Calibres" EntityType="SierraBlueDBModel.Calibre" />
+          <EntitySet Name="Categorias" EntityType="SierraBlueDBModel.Categoria" />
+          <EntitySet Name="Clientes" EntityType="SierraBlueDBModel.Cliente" />
+          <EntitySet Name="Empaques" EntityType="SierraBlueDBModel.Empaque" />
+          <EntitySet Name="LotesCultivos" EntityType="SierraBlueDBModel.LoteCultivo" />
+          <EntitySet Name="Presentaciones" EntityType="SierraBlueDBModel.Presentacion" />
+          <EntitySet Name="Productores" EntityType="SierraBlueDBModel.Productor" />
+          <EntitySet Name="Recepciones" EntityType="SierraBlueDBModel.Recepcion" />
+          <EntitySet Name="Variedades" EntityType="SierraBlueDBModel.Variedad" />
+          <AssociationSet Name="FK_LotesCultivo_Productores_ProductorId" Association="Self.FK_LotesCultivo_Productores_ProductorId">
+            <End Role="Productores" EntitySet="Productores" />
+            <End Role="LotesCultivo" EntitySet="LotesCultivos" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Variedades_Productores_ProductorId" Association="Self.FK_Variedades_Productores_ProductorId">
+            <End Role="Productores" EntitySet="Productores" />
+            <End Role="Variedades" EntitySet="Variedades" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SierraBlueDBModelStoreContainer" CdmEntityContainer="SierraBlueDBEntities">
+          <EntitySetMapping Name="C__EFMigrationsHistory">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.C__EFMigrationsHistory">
+              <MappingFragment StoreEntitySet="__EFMigrationsHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Calibres">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Calibre">
+              <MappingFragment StoreEntitySet="Calibres">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Categorias">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Categoria">
+              <MappingFragment StoreEntitySet="Categorias">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Cliente">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empaques">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Empaque">
+              <MappingFragment StoreEntitySet="Empaques">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FechaYHora" ColumnName="FechaYHora" />
+                <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+                <ScalarProperty Name="Productor" ColumnName="Productor" />
+                <ScalarProperty Name="Variedad" ColumnName="Variedad" />
+                <ScalarProperty Name="LotePoscosecha" ColumnName="LotePoscosecha" />
+                <ScalarProperty Name="Presentacion" ColumnName="Presentacion" />
+                <ScalarProperty Name="Calibre" ColumnName="Calibre" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="Peso" ColumnName="Peso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LotesCultivos">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.LoteCultivo">
+              <MappingFragment StoreEntitySet="LotesCultivo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="ProductorId" ColumnName="ProductorId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Presentaciones">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Presentacion">
+              <MappingFragment StoreEntitySet="Presentacions">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Productores">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Productor">
+              <MappingFragment StoreEntitySet="Productores">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Iniciales" ColumnName="Iniciales" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recepciones">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Recepcion">
+              <MappingFragment StoreEntitySet="Recepciones">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FechaYHora" ColumnName="FechaYHora" />
+                <ScalarProperty Name="Puerto" ColumnName="Puerto" />
+                <ScalarProperty Name="Productor" ColumnName="Productor" />
+                <ScalarProperty Name="Variedad" ColumnName="Variedad" />
+                <ScalarProperty Name="LoteCultivo" ColumnName="LoteCultivo" />
+                <ScalarProperty Name="LotePoscosecha" ColumnName="LotePoscosecha" />
+                <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+                <ScalarProperty Name="Peso" ColumnName="Peso" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Variedades">
+            <EntityTypeMapping TypeName="SierraBlueDBModel.Variedad">
+              <MappingFragment StoreEntitySet="Variedades">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Iniciales" ColumnName="Iniciales" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="ProductorId" ColumnName="ProductorId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
